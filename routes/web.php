@@ -12,3 +12,24 @@
 */
 
 Route::get('/', "index@index");
+
+
+
+Route::get('/news', "index@news");
+
+Route::get('/news_info', "index@news_info");
+
+Route::get('/contact_us', "index@contact_us");
+
+
+Auth::routes();
+
+
+
+
+
+
+
+
+
+
