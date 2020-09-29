@@ -41,20 +41,19 @@
         <div class="container">
             <h2 class="info_title">中台灣推薦秘境景點</h2>
             <div class="row">
-                <div class="col-12 my-3 my-md-0 col-md-6">
-                    <div class="image_box h-100">
-                        <a href="./images/index/news/news_example.JPG" data-lightbox="image-1" data-title="My caption">
-                            <img width="100%" src="./images/index/news/news_example.JPG" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 my-3 my-md-0 col-md-6">
-                    <div class="info_content">
-                        <h3>景點名稱</h3>
-                        我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容我是文章詳細內容
+
+
+                    <div class="col-md-4">
+                        <div class="news_list">
+                            <h3>{{$news_info->title}}</h3>
+                            <h4>{{$news_info->sub_title}}</h4>
+                            <img width="100%" src="{{$news_info->img_url}}" alt="圖片建議尺寸: 1000 x 567">
+                            <p class="news_content">{{$news_info->contact}}</p>
+                           
+                        </div>
                     </div>
 
-                </div>
+
             </div>
         </div>
     </section>
